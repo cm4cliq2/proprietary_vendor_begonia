@@ -1,0 +1,14 @@
+mms_max_image_height=1200
+mms_maximum_message_size=1048576
+sms_pref_key_emailgateway_num=500
+mms_max_image_width=1600
+sms_mms_delivery_report_enable=1
+Single_Digit_Dial_Enabled=False
+roaming_icon=0
+double_tap=none
+dun_enable=0
+Bluetooth_Dun_Enabled=false
+supl_carrier_settings_enabled=1
+mms_x_wap_profile_url=http://uaprof.motorola.com/phoneconfig/motandroidgeneric/Profile/motandroidgeneric.rdf
+sms_pref_key_to_email=1
+dun_apn_changable=0

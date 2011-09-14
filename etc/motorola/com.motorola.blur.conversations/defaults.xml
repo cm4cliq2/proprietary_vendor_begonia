@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<map>
+<boolean name='SmsMmsEmotIconInKeypadEnabled' value='true'/>
+<long name='mms_maximum_message_size' value='1024000000'/><boolean name='sms_force_7bit_encoding' value='false'/></map>

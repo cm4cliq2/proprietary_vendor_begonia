@@ -1,0 +1,9 @@
+Idle_Timeout=10000
+Broadcast_Timeout=20000
+KeyDispatching_Timeout=10000
+GC_Timeout=5000
+Pause_Timeout=500
+Destroy_Timeout=10000
+Proc_Start_Timeout=10000
+Service_Timeout=20000
+Launch_Timeout=10000

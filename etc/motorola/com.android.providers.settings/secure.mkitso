@@ -1,0 +1,7 @@
+location_providers_allowed=network,gps
+wifi_on=0
+default_input_method=com.swype.android.inputmethod/.SwypeInputMethod
+data_roaming=1
+bluetooth_on=0
+install_non_market_apps=1
+usb_mass_storage_enabled=1
