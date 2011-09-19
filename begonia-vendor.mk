@@ -87,6 +87,17 @@ PRODUCT_COPY_FILES += \
 	#vendor/motorola/begonia/lib/libskia.so:system/lib/libskia.so 
 	#vendor/motorola/begonia/lib/libOMX.TI.JPEG.Encoder.so:system/lib/libOMX.TI.JPEG.Encoder.so
 
+# add 720P camcorder source file
+PRODUCT_COPY_FILES += \
+	vendor/motorola/begonia/lib/libOMX.TI.720P.Decoder.so:system/lib/libOMX.TI.720P.Decoder.so \
+	vendor/motorola/begonia/lib/libOMX.TI.720P.Encoder.so:system/lib/libOMX.TI.720P.Encoder.so \
+	vendor/motorola/begonia/lib/libOMX.TI.h264.splt.Encoder.so:system/lib/libOMX.TI.h264.splt.Encoder.so \
+	vendor/motorola/begonia/lib/libOMX.TI.mp4.splt.Encoder.so:system/lib/libOMX.TI.mp4.splt.Encoder.so \
+	vendor/motorola/begonia/lib/dsp/720p_h264vdec_sn.dll64P:system/lib/dsp/720p_h264vdec_sn.dll64P \
+	vendor/motorola/begonia/lib/dsp/720p_h264venc_sn.dll64P:system/lib/dsp/720p_h264venc_sn.dll64P \
+	vendor/motorola/begonia/lib/dsp/720p_mp4vdec_sn.dll64P:system/lib/dsp/720p_mp4vdec_sn.dll64P \
+	vendor/motorola/begonia/lib/dsp/720p_mp4venc_sn.dll64P:system/lib/dsp/720p_mp4venc_sn.dll64P 
+
 #etc
 PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/etc/wifi/fw_tiwlan_ap.bin:system/etc/wifi/fw_tiwlan_ap.bin \
