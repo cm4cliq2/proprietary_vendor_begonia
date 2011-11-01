@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/etc/firmware/wl1271.bin:system/etc/firmware/wl1271.bin \
 	vendor/motorola/begonia/etc/cameraCalFileDef5M.bin:system/etc/cameraCalFileDef5M.bin \
 	vendor/motorola/begonia/etc/gpsconfig.xml:system/etc/gpsconfig.xml \
+	vendor/motorola/begonia/etc/btpan.conf:system/etc/btpan.conf \
 	vendor/motorola/begonia/etc/location.cfg:system/etc/location.cfg \
 	vendor/motorola/begonia/etc/fmc_init_1273.2.bts:system/etc/fmc_init_1273.2.bts \
 	vendor/motorola/begonia/etc/fmc_init_6450.2.bts:system/etc/fmc_init_6450.2.bts \
@@ -175,11 +176,18 @@ PRODUCT_COPY_FILES += \
 	vendor/motorola/begonia/bin/brcm_guci_drv:system/bin/brcm_guci_drv \
 	vendor/motorola/begonia/bin/bplogd_daemon:system/bin/bplogd_daemon \
 	vendor/motorola/begonia/bin/akmd2:system/bin/akmd2 \
+	vendor/motorola/begonia/bin/tcmd:system/bin/tcmd \
+	vendor/motorola/begonia/bin/tcmdhelp:system/bin/tcmdhelp \
+	vendor/motorola/begonia/bin/modemlog:system/bin/modemlog \
+	vendor/motorola/begonia/bin/vpnclientpm:system/bin/vpnclientpm \
+	vendor/motorola/begonia/bin/RescueStarter:system/bin/RescueStarter \
+	vendor/motorola/begonia/bin/RescueServer:system/bin/RescueServer \
 	vendor/motorola/begonia/bin/rild_tcmd:system/bin/rild_tcmd \
 	vendor/motorola/begonia/bin/usbd:system/bin/usbd \
 	vendor/motorola/begonia/bin/location:system/bin/location \
 	vendor/motorola/begonia/bin/panic_daemon:system/bin/panic_daemon \
-	vendor/motorola/begonia/xbin/ssmgrd:system/xbin/ssmgrd
+	vendor/motorola/begonia/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
+	vendor/motorola/begonia/bin/ssmgrd:system/bin/ssmgrd 
 	#vendor/motorola/begonia/bin/mot_boot_mode:system/bin/mot_boot_mode \
 	#vendor/motorola/begonia/bin/charge_only_mode:system/bin/charge_only_mode \
 

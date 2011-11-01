@@ -1,0 +1,14 @@
+<config>
+    <vsuite_feature_dialing_region value="North American"/>
+    <vsuite_feature_language_data_dir value="/system/tts/nuance"/>
+    <vsuite_feature_proximity_sensor_enabled value="true"/>
+    <vsuite_feature_check_balance value="disabled"/>
+    <vsuite_feature_check_minutes value="disabled"/>
+    <vsuite_feature_check_payment value="disabled"/>
+    <vsuite_feature_check_missed_calls_custom_enabled value="true"/>
+    <vsuite_feature_phonebook_resync_delay value="5000"/>
+</config>
+
+
+
+
